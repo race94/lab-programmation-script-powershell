@@ -10,5 +10,7 @@
     Derniere mise à jour: yyyy-mm-dd
 
 #>
+$personneNom = "Alice"
+$personneAge = 35
 
-Write-Host "Bonjour Monde"
+Write-Host "Bonjour $personneNom, tu as $personneAge ans."
